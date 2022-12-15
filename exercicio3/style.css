@@ -1,0 +1,63 @@
+button {
+    height: 10vh;
+    width: 25vw;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+button:active {
+    background-color: pink;
+    color: red;
+    border: none;
+}
+
+/* body{
+    text-align: center;
+} */
+
+div {
+    background-color: chartreuse;
+    margin: 0 auto;
+    width: 15vw;
+}
+
+span {
+    background-color: aqua;
+    width: 20vw;
+    height: 20vh;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    height: 10vh;
+    width: 10vw;
+    margin-left: 5em;
+    text-align: center;
+}
+
+
+li:nth-child(1) {
+    background-color: lightblue;
+}
+
+li:nth-child(2) {
+    background-color: lightcoral;
+}
+
+li:nth-child(3) {
+    background-color: lightgreen;
+}
+
+body {
+    text-align: center;
+}
